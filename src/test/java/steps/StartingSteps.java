@@ -11,8 +11,9 @@ public class StartingSteps extends DriverFactory{
 	
 	@Before
 	public void presetup() {
-		System.setProperty("webdriver.gecko.driver",
-				"C:\\Users\\JuanCarlosAlmeydaCru\\Downloads\\geckodriver-v0.23.0-win64\\geckodriver.exe");
+		String projectLocation = System.getProperty("user.dir"); 
+		System.setProperty("webdriver.gecko.driver",projectLocation+"\\src\\lib\\geckodriver.exe");
+		//System.setProperty("webdriver.gecko.driver","src/lib/geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}

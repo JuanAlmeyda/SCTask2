@@ -96,18 +96,22 @@ public class BookFlightPage {
 	}
 	
 	public void he_provides_the_billing_address_as(String billingAddress) throws Throwable {
+		billingAddressTextBox.clear();
 		billingAddressTextBox.sendKeys(billingAddress);
 	}
 	
 	public void he_provides_the_billing_city_as(String billingCity) throws Throwable {
+		billingCityTextBox.clear();
 		billingCityTextBox.sendKeys(billingCity);
 	}
 	
 	public void he_provides_the_billing_state_as(String billingState) throws Throwable {
+		billingStateTextBox.clear();
 		billingStateTextBox.sendKeys(billingState);
 	}
 	
 	public void he_provides_the_billing_postal_code_as(String billingPostalCode) throws Throwable {
+		billingPostalCodeTextBox.clear();
 		billingPostalCodeTextBox.sendKeys(billingPostalCode);
 	}
 	
@@ -118,18 +122,22 @@ public class BookFlightPage {
 	}
 	
 	public void he_provides_the_delivery_address_as(String deliveryAddress) throws Throwable {
+		deliveryAddressTextBox.clear();
 		deliveryAddressTextBox.sendKeys(deliveryAddress);
 	}
 	
 	public void he_provides_the_delivery_city_as(String deliveryCity) throws Throwable {
+		deliveryCityTextBox.clear();
 		deliveryCityTextBox.sendKeys(deliveryCity);
 	}
 	
 	public void he_provides_the_delivery_state_as(String deliveryState) throws Throwable {
+		deliveryStateTextBox.clear();
 		deliveryStateTextBox.sendKeys(deliveryState);
 	}
 	
 	public void he_provides_the_delivery_postal_code_as(String deliveryPostalCode) throws Throwable {
+		deliveryPostalCodeTextBox.clear();
 		deliveryPostalCodeTextBox.sendKeys(deliveryPostalCode);
 	}
 	
